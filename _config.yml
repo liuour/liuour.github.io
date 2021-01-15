@@ -5,9 +5,9 @@ header-img: img/bg-zhuye.jpg    #显示在首页的背景图片
 # email: liuour@gmail.com
 description: "Every failure is leading towards success."     #网站介绍
 keyword: "暹罗, 科学上网, 翻墙, SSR, macOS, 路由器, iOS, Apple, iPhone"    #关键词
-url: "http://masonme.github.io"          # 博客地址
+url: "http://liuour.github.io"          # 博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/masonme/masonme.github.io.git" # you code repository
+github_repo: "https://github.com/liuour/liuour.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-me.jpg      # 个人头像
 # RSS: false
 # weibo_username:     
 # zhihu_username:     
-# github_username:    masonme
+# github_username:    liuour
 # facebook_username:  
 # jianshu_username:   76be8479a4ae
 # twitter_username:   
@@ -59,16 +59,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: masonme
+# disqus_username: liuour
 
 # Gitalk
 # gitalk:
   # enable: true    #是否开启Gitalk评论
   # clientID: befbcc8e5c829a311c57                            #生成的clientID
   # clientSecret: 563a0aeff82683bde17dce8ed7d6a8fc5ac9f1a2    #生成的clientSecret
-  # repo: masonme.github.io    #仓库名称
-  # owner: masonme     #github用户名
-  # admin: masonme 
+  # repo: liuour.github.io    #仓库名称
+  # owner: liuour     #github用户名
+  # admin: liuour 
   # distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -80,7 +80,7 @@ kramdown:
 
 # Google Analytics
 # ga_track_id: 'UA-xxxxxx-xx'            # Format: UA-xxxxxx-xx
-# ga_domain: masonme.github.io               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_domain: liuour.github.io               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -102,10 +102,10 @@ service-worker: true
 friends: [
     {
         title: "主页",
-        href: "https://masonme.github.io/"
+        href: "https://liuour.github.io/"
     },{
         title: "Telegram",
-        href: "http://t.me/lucascontact"
+        href: "http://t.me/reallucasus"
     }
 ]
 
