@@ -1,0 +1,120 @@
+---
+title: 归类
+layout: default
+description: 你那么多的分组，不知道自己被归类于你的哪一个。
+header-img: "img/bg-posts.jpg"
+header-mask: 0.5
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-preview">
+                <h4>macOS</h4>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign isReading = false %}
+                        {% for tag in post.tags %}
+                            {% if tag == "macOS" %}
+                                {% assign isReading = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if isReading and post.macOS != true %}
+                            <li><span style="color: #aaa;font-family: Monaco, "Courier New", monospace;font-size: 80%;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
+                <h4>科学上网</h4>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign isReading = false %}
+                        {% for tag in post.tags %}
+                            {% if tag == "科学上网" %}
+                                {% assign isReading = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if isReading and post.科学上网 != true %}
+                            <li><span style="color: #aaa;font-family: Monaco, "Courier New", monospace;font-size: 80%;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
+                <h4>社交</h4>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign isReading = false %}
+                        {% for tag in post.tags %}
+                            {% if tag == "社交" %}
+                                {% assign isReading = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if isReading and post.社交 != true %}
+                            <li><span style="color: #aaa;font-family: Monaco, "Courier New", monospace;font-size: 80%;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
+                <h4>效率</h4>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign isReading = false %}
+                        {% for tag in post.tags %}
+                            {% if tag == "效率" %}
+                                {% assign isReading = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if isReading and post.效率 != true %}
+                            <li><span style="color: #aaa;font-family: Monaco, "Courier New", monospace;font-size: 80%;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
+                <h4>娱乐</h4>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign isReading = false %}
+                        {% for tag in post.tags %}
+                            {% if tag == "娱乐" %}
+                                {% assign isReading = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if isReading and post.娱乐 != true %}
+                            <li><span style="color: #aaa;font-family: Monaco, "Courier New", monospace;font-size: 80%;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
+                <h4>博客</h4>
+                <ul>
+                    {% for post in site.posts %}
+                        {% assign isReading = false %}
+                        {% for tag in post.tags %}
+                            {% if tag == "博客" %}
+                                {% assign isReading = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if isReading and post.博客 != true %}
+                            <li><span style="color: #aaa;font-family: Monaco, "Courier New", monospace;font-size: 80%;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+		</div>
+	</div>
+</div>

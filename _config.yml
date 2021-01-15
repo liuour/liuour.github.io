@@ -1,0 +1,123 @@
+# Site settings
+title: 暹罗      #博客的标题
+SEOTitle: 暹罗 - 欢迎您！    #显示在浏览器上搜索的时候显示的标题
+header-img: img/bg-zhuye.jpg    #显示在首页的背景图片
+# email: liuour@gmail.com
+description: "Every failure is leading towards success."     #网站介绍
+keyword: "暹罗, 科学上网, 翻墙, SSR, macOS, 路由器, iOS, Apple, iPhone"    #关键词
+url: "http://masonme.github.io"          # 博客地址
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/masonme/masonme.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏.
+# sidebar-about-description: "海不辞水，故能成其大；</br>山不辞土，故能就其高。"    # 头像下面的话
+sidebar-avatar: /img/about-me.jpg      # 个人头像
+
+
+
+# SNS settings
+# RSS: false
+# weibo_username:     
+# zhihu_username:     
+# github_username:    masonme
+# facebook_username:  
+# jianshu_username:   76be8479a4ae
+# twitter_username:   
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# gems: [jekyll-paginate]  修改为plugins，否则本地预览报错
+plugins: [jekyll-paginate]
+# gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: masonme
+
+# Gitalk
+# gitalk:
+  # enable: true    #是否开启Gitalk评论
+  # clientID: befbcc8e5c829a311c57                            #生成的clientID
+  # clientSecret: 563a0aeff82683bde17dce8ed7d6a8fc5ac9f1a2    #生成的clientSecret
+  # repo: masonme.github.io    #仓库名称
+  # owner: masonme     #github用户名
+  # admin: masonme 
+  # distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: 
+
+# Google Analytics
+# ga_track_id: 'UA-xxxxxx-xx'            # Format: UA-xxxxxx-xx
+# ga_domain: masonme.github.io               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "主页",
+        href: "https://masonme.github.io/"
+    },{
+        title: "Telegram",
+        href: "http://t.me/lucascontact"
+    }
+]
+
+
+# Jekyll-Search settings
+# url: https://github.com/androiddevelop/jekyll-search
+Jekyll-Search: true             # 是否启用jekyll博客搜索插件
+
+
+# 给文章的各级标题前添加段落编号
+headerNumber4Catalog: false  # 为目录标题添加编号
+headerNumber4Content: false  # 为正文标题添加编号
+
+# lightbox 图片预览插件
+lightbox: true

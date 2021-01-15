@@ -1,4 +1,3 @@
-## 关于本主题
+[梅森ME的博客 | BY Mason](https://masonme.github.io/)
 
-测试
 
