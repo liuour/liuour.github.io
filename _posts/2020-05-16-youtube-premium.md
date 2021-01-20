@@ -94,8 +94,4 @@ tags:
 
 ## Telegram群组
 
-1. 路由器交流群：[https://t.me/luyouqi](https://t.me/luyouqi)
-2. V2EX交流群：[https://t.me/V2EXPro](https://t.me/V2EXPro)
-3. Apple交流群：[https://t.me/Apple_CHN](https://t.me/Apple_CHN)
-4. Google交流群：[https://t.me/googlequn](https://t.me/googlequn)
-5. **更多群组：[点击我](https://masonme.github.io/2020/06/11/telegram-group/)**
+* Google交流群：[https://t.me/googlequn](https://t.me/googlequn)

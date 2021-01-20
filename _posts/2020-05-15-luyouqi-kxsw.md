@@ -75,9 +75,4 @@ DNS设置
 
 ### Telegram 交流群
 
-1. 路由器交流群：[https://t.me/luyouqi](https://t.me/luyouqi)
-2. V2EX 交流群：[https://t.me/V2EXPro](https://t.me/V2EXPro)
-3. iOS 交流群：[https://t.me/joinchat/PfkEcxxgHpWWYT-bagSupg](https://t.me/joinchat/PfkEcxxgHpWWYT-bagSupg)
-4. macOS 交流群：[https://t.me/macosqun](https://t.me/macosqun)
-5. Google 交流群：[https://t.me/googlequn](https://t.me/googlequn)
-6. **更多群组：[点击我](https://masonme.github.io/2020/06/11/telegram-group/)**
+* 路由器交流群：[https://t.me/luyouqi](https://t.me/luyouqi)
