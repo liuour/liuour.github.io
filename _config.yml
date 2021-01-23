@@ -101,7 +101,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "主页GitHub",
+        title: "GitHub",
         href: "https://github.com/liuour"
     },{
         title: "Telegram",
