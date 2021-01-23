@@ -1,10 +1,10 @@
 # Site settings
-title: 暹罗      #博客的标题
-SEOTitle: 暹罗 - 欢迎您！    #显示在浏览器上搜索的时候显示的标题
+title: 一方      #博客的标题
+SEOTitle: 一方 - 保一方平安    #显示在浏览器上搜索的时候显示的标题
 header-img: img/bg-zhuye.jpg    #显示在首页的背景图片
 # email: liuour@gmail.com
 description: "Every failure is leading towards success."     #网站介绍
-keyword: "暹罗, 科学上网, 翻墙, SSR, macOS, 路由器, iOS, Apple, iPhone"    #关键词
+keyword: "科学上网, 网络, SSR, macOS, 路由器, iOS, Apple, iPhone"    #关键词
 url: "http://liuour.github.io"          # 博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/liuour/liuour.github.io.git" # you code repository
@@ -101,11 +101,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "主页",
-        href: "https://liuour.github.io/"
+        title: "主页GitHub",
+        href: "https://github.com/liuour"
     },{
         title: "Telegram",
-        href: "http://t.me/reallucasus"
+        href: "http://t.me/yifangme"
     }
 ]
 
